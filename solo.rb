@@ -1,2 +1,2 @@
 file_cache_path "/var/chef-solo"
-cookbook_path ["/var/chef/cookbooks", "/var/chef/site-cookbooks"]
+cookbook_path ["/root/foundation-cookbook-master/site-cookbooks"]
