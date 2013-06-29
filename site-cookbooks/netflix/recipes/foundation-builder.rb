@@ -61,6 +61,5 @@ bash "update bashrc" do
     code <<-EOH
         echo "export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/jre" >> .bashrc
         echo "export EC2_HOME=/apps/aws/ec2-api-tools-1.6.6.4" >> .bashrc
-        echo 'export "PATH=$PATH:$EC2_HOME/bin"' >> .bashrc
     EOH
 end
