@@ -63,5 +63,6 @@ file "/etc/environment" do
 PATH="/apps/aws/ec2-api-tools-1.6.7.4/bin:/usr/local/aws/ec2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 EC2_HOME=/apps/aws/ec2-api-tools-1.6.7.4
 JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/jre
+EC2_URL=https://ec2.us-west-1.amazonaws.com
 EOH
 end
