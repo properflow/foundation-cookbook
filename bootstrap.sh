@@ -9,4 +9,4 @@ apt-get install unzip
 unzip master.zip
 
 # Install AWS EC2 API tools & Java via bootstrap recipe
-/opt/chef/bin/chef-solo -j /root/foundation-cookbook-master/node.json -c /root/foundation-cookbook-master/solo.rb
+/opt/chef/bin/chef-solo -j /home/ubuntu/foundation-cookbook-master/node.json -c /home/ubuntu/foundation-cookbook-master/solo.rb
